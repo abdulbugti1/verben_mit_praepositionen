@@ -64,6 +64,7 @@ struct vmp_widgetEntryView : View {
                 .font(.body)
             Text(entry.data["example"] ?? "")
                 .font(.caption)
+                .fixedSize(horizontal: false, vertical: true)
             Text(entry.data["kasus"] ?? "")
                 .font(.subheadline)
                 .fontWeight(.bold)
