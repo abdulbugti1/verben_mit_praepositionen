@@ -80,8 +80,8 @@ struct vmp_widget: Widget {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
             vmp_widgetEntryView(entry: entry)
         }
-        .configurationDisplayName("My Widget")
-        .description("This is an example widget.")
+        .configurationDisplayName("Verben mit Präpositionen")
+        .description("Shows German Verbs with Prepositions and examples")
         .supportedFamilies([.systemSmall, .systemMedium, .systemLarge, .systemExtraLarge, .accessoryRectangular])
     }
 }
