@@ -81,7 +81,7 @@ struct vmp_widget: Widget {
         }
         .configurationDisplayName("My Widget")
         .description("This is an example widget.")
-        .supportedFamilies([.systemSmall, .systemMedium, .systemLarge, .systemExtraLarge])
+        .supportedFamilies([.systemSmall, .systemMedium, .systemLarge, .systemExtraLarge, .accessoryRectangular])
     }
 }
 
@@ -92,6 +92,6 @@ struct vmp_widget_Previews: PreviewProvider {
         
         // Use the initial entry in the widget entry views
         vmp_widgetEntryView(entry: initialEntry)
-            .previewContext(WidgetPreviewContext(family: .systemMedium))
+            .previewContext(WidgetPreviewContext(family: .accessoryRectangular))
     }
 }
