@@ -70,6 +70,7 @@ struct vmp_widgetEntryView : View {
                 .fontWeight(.bold)
         }
         .containerBackground(.fill.tertiary, for: .widget)
+        
     }
 }
 

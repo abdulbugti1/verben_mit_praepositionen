@@ -25,8 +25,10 @@ To use this widget:
 
 ## Widget Configuration
 
-- **Supported Widget Sizes:** Small, Medium, Large, Extra Large
-- **Configuration Display Name:** My Widget
-- **Description:** This is an example widget.
+- **Supported Widget Sizes:** Small, Medium, Large, Extra Large, Accessory Rectangular
+- **Configuration Display Name:** Verben mit Präpositionen
+- **Description:** Shows German Verbs with Prepositions and examples
 
+## Lock Screen Widget Preview
 
+<img src="images/vmp_lockscreen_preview.PNG" width="400px" alt="Preview Lock Screen">
